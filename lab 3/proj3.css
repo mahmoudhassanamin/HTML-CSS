@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(WhatsApp\ Image\ 2023-01-02\ at\ 13.40.49.jpg) ;
+    background-repeat:no-repeat;
+    background-size:cover;    
+}
+nav{
+    background-color: black;
+}
+nav>a{
+    text-decoration: none;
+    margin:0.5vw 4vw 0.5vw;
+}
+nav>a:hover{
+    color:blue;
+}
+nav>button{
+    padding: 0.5vw 2vw;
+    border-radius: 2vw;
+    background-color: red;
+    margin:0.5vw 1.5vw 0.5vw;
+}
+nav *{
+    text-transform: capitalize;
+    color:white; 
+    font-size: 1.5vw;
+
+}
+nav>button:hover{
+    cursor:pointer;
+    background-color: grey;
+}
+section{
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+section>video{
+    margin:3vh 20vw 3vh;
+    width: 60vw;
+    height:30vw;
+    display: block;
+}
+section img{
+    width: 10vw;
+    height:15vw;
+    margin: 0.5vh 0.5vw;
+}
+section>div{
+    display: inline-block;
+    width: 30vw;
+    height:27vw;
+    background-color: black;
+    font-size:1.5vw;
+    margin:3vw 1vw;
+}
